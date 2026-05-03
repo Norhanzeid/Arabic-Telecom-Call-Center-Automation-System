@@ -97,10 +97,4 @@ Get keys from:
 
 ---
 
-## 🤝 Support
-
-For detailed information, troubleshooting, and advanced usage, refer to the [full README](Speech%20to%20text/Project/README.md).
-
----
-
 **Status**: ✅ Active Development | **Language**: Arabic/English | **License**: MIT

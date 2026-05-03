@@ -1,0 +1,8 @@
+استخرج معلومات العميل من النص التالي وأرجعها بصيغة JSON فقط:
+{
+    "customer_name": "اسم العميل أو null",
+    "phone_number": "رقم الهاتف أو null",
+    "is_urgent": true/false
+}
+
+لا تضف أي شرح، فقط JSON.

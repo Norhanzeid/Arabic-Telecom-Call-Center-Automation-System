@@ -1,0 +1,8 @@
+
+# Ignore Python cache
+__pycache__/
+Project/__pycache__/
+complaint_rag/__pycache__/
+modules/__pycache__/
+modules/speech_to_text/__pycache__/
+test2/__pycache__/

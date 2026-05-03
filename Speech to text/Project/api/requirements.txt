@@ -1,0 +1,24 @@
+# =============================================================================
+# Requirements for FastAPI Backend (API Container)
+# =============================================================================
+
+# Core API Framework
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+pydantic>=2.4.0
+
+# OpenAI API Client (Whisper API & entity extraction)
+openai>=1.0.0
+
+# LLM API (Groq - Llama 3.3 70B for classification & response generation)
+groq>=0.4.0
+
+# Audio Processing
+ffmpeg-python>=0.2.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Text processing
+regex>=2023.10.3

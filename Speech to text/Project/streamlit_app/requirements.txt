@@ -1,0 +1,28 @@
+# =============================================================================
+# Requirements for Streamlit Frontend (Streamlit Container)
+# =============================================================================
+
+# Streamlit Framework
+streamlit>=1.28.0
+
+# HTTP Client (for communicating with FastAPI backend)
+requests>=2.31.0
+
+# OpenAI API Client (Whisper API & entity extraction)
+openai>=1.0.0
+
+# LLM API (Groq - Llama 3.3 70B)
+groq>=0.4.0
+
+# Data Export
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# Audio Processing
+ffmpeg-python>=0.2.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Text processing
+regex>=2023.10.3

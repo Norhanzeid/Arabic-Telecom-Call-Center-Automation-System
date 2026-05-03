@@ -1,0 +1,22 @@
+# Complaint RAG System Dependencies
+# نظام RAG لشكاوى العملاء
+
+# Vector Database
+chromadb>=0.4.0
+
+# Embeddings
+sentence-transformers>=2.2.0
+
+# LLM - OpenAI (classifier fallback)
+openai>=1.0.0
+
+# LLM - Groq (billing & service request routers, internet diagnosis)
+groq>=0.4.0
+
+# API
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pydantic>=2.0.0
+
+# Utilities
+python-dotenv>=1.0.0

@@ -1,0 +1,35 @@
+# =============================================================================
+# Requirements for Local API - Whisper Local + Sentence Transformers
+# No OpenAI API key required - runs completely offline
+# NOTE: PyTorch is installed separately in Dockerfile for CPU version
+# =============================================================================
+
+# Core API Framework
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+pydantic>=2.4.0
+
+# ML utilities (install before whisper)
+numpy>=1.24.0
+
+# Local Whisper (OpenAI's Whisper running locally)
+# PyTorch installed separately in Dockerfile
+openai-whisper
+
+# OpenAI Python client (used for optional GPT-based extraction)
+openai>=1.0.0
+
+# Sentence Transformers for classification
+sentence-transformers>=2.2.2
+
+# ML utilities
+scikit-learn>=1.3.0
+
+# Audio Processing
+ffmpeg-python>=0.2.0
+
+# Text processing
+regex>=2023.10.3
+
+python-dotenv>=1.0.0

@@ -1,0 +1,25 @@
+Analyze this Whisper transcription and identify the speaker for EACH segment with HIGH ACCURACY.
+
+⚠️ CRITICAL INSTRUCTIONS:
+1. For each segment, determine: WHO IS ADDRESSING WHOM?
+   - If text contains "يا أستاذ [agent name]" → CUSTOMER
+   - If text is offering help "أساعدك إزاي" → AGENT
+   
+2. Keep the text EXACTLY as provided (do not alter wording).
+
+3. Preserve the original timestamps from Whisper.
+
+4. Output ONLY a valid JSON array with objects containing: "speaker", "start", "end", "text".
+
+5. Valid speaker values: "Agent", "Customer", or "Unknown" (only if truly ambiguous).
+
+6. Include ALL segments — do not skip any.
+
+7. Apply the step-by-step analysis from the system instructions.
+
+8. Do NOT split a continuous monologue from the same speaker into multiple entries. Keep it as ONE object unless the speaker changes.
+
+Transcription:
+{transcription_content}
+
+Output ONLY the JSON array, no explanation or markdown:

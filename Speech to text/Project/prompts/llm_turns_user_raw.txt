@@ -1,0 +1,25 @@
+Analyze this Arabic call center conversation and identify speakers with HIGH ACCURACY.
+
+⚠️ CRITICAL INSTRUCTIONS:
+1. Look for WHO IS ADDRESSING WHOM:
+   - "يا أستاذ أحمد" or "يا أستاذة [name]" = CUSTOMER speaking
+   - "أقدر أساعدك إزاي؟" or "أنا أساعد حضرتك إزاي؟" = AGENT speaking
+   
+2. Split the text into logical speaker turns (Agent vs Customer).
+
+3. Keep the text EXACTLY as provided (do not alter any words).
+
+4. Output ONLY a valid JSON array: [{"speaker": "Agent/Customer", "text": "..."}]
+
+5. Valid speaker values: "Agent", "Customer", or "Unknown" (only if truly ambiguous).
+
+6. Every word from the original must appear in exactly one turn.
+
+7. Apply the step-by-step analysis from the system instructions.
+
+8. Do NOT split a continuous monologue from the same speaker into multiple entries. Keep it as ONE object unless the speaker changes.
+
+Transcription:
+{transcription_content}
+
+Output ONLY the JSON array, no explanation or markdown:

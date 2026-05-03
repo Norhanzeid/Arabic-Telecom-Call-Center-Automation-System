@@ -1,0 +1,71 @@
+# =============================================================================
+# .dockerignore - Files excluded from Docker build context
+# =============================================================================
+
+# Environment files (secrets - NEVER copy into image)
+.env
+.env.*
+!.env.example
+
+# Git
+.git
+.gitignore
+
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyo
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker (don't include compose/dockerfiles in build context)
+docker-compose.yml
+Dockerfile
+Dockerfile.backup
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test files
+test_cases/
+test2/
+tests/
+
+# Unused app files
+app_injaz.py
+template_injaz.py
+
+# Temporary files
+*.tmp

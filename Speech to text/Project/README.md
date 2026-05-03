@@ -70,6 +70,14 @@ Router     Diagnosis      Router
 
 ---
 
+## 🎥 Demo Video
+
+Watch the project in action:
+
+[**▶️ Watch Demo Video on Google Drive**](https://drive.google.com/file/d/1gi1dZIiIsMl7Zb7lHLEGojKWeqBIP3m2/view?usp=sharing)
+
+---
+
 ## 📋 Prerequisites
 
 - Python 3.8+

@@ -94,7 +94,3 @@ OPENAI_API_KEY=your_openai_key
 Get keys from:
 - **Groq**: https://console.groq.com
 - **OpenAI**: https://platform.openai.com
-
----
-
-**Status**: ✅ Active Development | **Language**: Arabic/English | **License**: MIT
